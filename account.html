@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <title>Client Account</title>
+  <style>
+    /* CSS styles for the page */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /*the font family and background color for the body */
+    body {
+      font-family: Arial, sans-serif, "Duru Sans";
+      background: #f2f2f2; 
+    }
+
+    a:hover {color: red; }
+
+    /*styles for the header section */
+    header {
+      background: linear-gradient(to right, #ff8c00, #ff0000); /* Used gradient for background color */
+      color: #fff;
+      padding: 20px;
+      text-align: center; /* Align the logout button to the right */
+    }
+	 nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* styles for the main content section */
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    /*styles for the heading */
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #333;
+    }
+
+    /* styles for the dashboard section */
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 20px;
+      margin-bottom: 20px;
+    }	
+	
+	
+    .dashboard-item {
+      background-color: #ff8c00; /* the background color a bright color */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    /*styles for the designer images */
+    .designer-image {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    /*styles for the logout button */
+    .logout-button {
+      background-color: #ff0000; /* the background color a bright color */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /*styles for the orders section */
+    .orders {
+      margin-top: 20px;
+    }
+
+    .order-item {
+      background-color: #ff8c00; /*  the background color a bright color */
+      color: #fff;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    /*styles for the invoice section */
+    .invoice {
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .invoice-details {
+      display: none;
+      background-color: #ff8c00; /*  the background color  a bright color */
+      color: #fff;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    /*styles for the footer */
+    footer {
+      background: linear-gradient(to bottom right, #ff0000, #ff8c00); /* Used gradient for background color */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /*styles for the beautiful square in the footer */
+    .beautiful-square {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(to bottom right, #ff0000, #ff8c00); /* Used gradient for background color */
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome, Bayan Khaled</h1> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Client Account</title> 
+<header>
+  <button class="logout-button" >Logout</button> <!-- we Added a logout button -->
+</header>
+  <nav>
+      <ul>
+        <li><a href="Homes.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="About.Us.html">About Us</a></li>
+        <li><a href="Designers.html">Designers</a></li>
+        <li><a href="AI.html">AI Experience</a></li>
+        <li><a href="Account.html">My Account</a></li>
+      </ul>
+    </nav>
+</header>
+
+<div class="container">
+<h2>Dashboard</h2>
+<h4 style= 	"text-align: center";
+"font-family: Arial, sans-serif", "Duru Sans";
+      "background: #f2f2f2"; 
+>Your favorite designers</h4>
+
+
+  <div class="dashboard">
+    <div class="dashboard-item">
+      <img class="designer-image" src="photos\liza.jpg" alt="liza">
+      <h3>liza</h3>
+      <p>Number one designer according to Bayan</p>
+    </div>
+    <div class="dashboard-item">
+      <img class="designer-image" src="photos\ekateria.jpg" alt="Designer 2">
+      <h3>ekateria</h3>
+      <p>Deal with him more than once.</p>
+    </div>
+    <div class="dashboard-item">
+      <img class="designer-image" src="photos\andrea.jpg" alt="Designer 3">
+      <h3>andrea</h3>
+      <p>Browse, Bayan, this designer recently</p>
+    </div>
+  </div>
+
+  <div class="orders">
+    <h3>Recent Orders</h3>
+    <div class="order-item">
+      <p>Order 1</p>
+      <p>Date: 2023-11-20</p>
+    </div>
+    <div class="order-item">
+      <p>Order 2</p>
+      <p>Date: 2023-11-21</p>
+    </div>
+    <div class="order-item">
+      <p>Order 3</p>
+      <p>Date: 2023-11-22</p>
+    </div>
+  </div>
+
+  <div class="invoice">
+    <h3>Invoice</h3>
+    <p>Date: 2023-11-22</p>
+    <div class="invoice-details">
+      <p>Order 3</p>
+      <p>Amount: $100</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="beautiful-square"></div> 
+  <footer>
+    <p>Contact: <span class="contact-info">Phone: <a href="tel:+1234567890">+1234567890</a> | Email: <a href="mailto:fashion.design@gmail.com">fashion.desgin@gmail.com</a> | Instagram: <a href="https://www.instagram.com/example/">@fashion.design</a></span></p>
+  </footer>
+  <p>&copy; 2023 Designers' Platform. All rights reserved.</p>
+</footer>
+
+<script>
+  // JavaScript code for interactivity
+
+  // Add event listener to the invoice section
+  document.querySelector('.invoice').addEventListener('click', function() {
+    // Toggle the display of the invoice details
+    const invoiceDetails = document.querySelector('.invoice-details');
+    invoiceDetails.style.display = invoiceDetails.style.display === 'none' ? 'block' : 'none';
+  });
+  </script>
+
+<style>
+.logout-button:hover {
+  color: red;
+}
+</style>
+
+<script>
+  document.querySelector('.logout-button').addEventListener('click', function() {
+    window.location.href = 'homes.html';
+  });
+</script>
+
+</body>
+</html>

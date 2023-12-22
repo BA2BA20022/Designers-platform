@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <title>Designer Platform</title>
+  <style>
+  
+    /* CSS styling for the header and footer */
+		 a:hover{color:red;}
+    header, footer {
+      background-color: #ff4e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* CSS styling for the main content area */
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .category {
+      margin: 10px;
+      text-align: center;
+    }
+
+    .category img {
+	 max-width: 100%;
+	 max-width: 300px;
+     height: auto;
+    }
+
+    /* CSS styling for the discount box */
+    .discount-box {
+      background-color: #f9d423;
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* CSS styling for the logo */
+    .logo {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body style="background-image: url('background.jpg'); background-size: cover;">
+  <header>
+    <img class="logo" src="photos\logo.png" alt="Designer Platform Logo">
+	<h1>Home</h1>
+    <p>Welcome to our designer platform where creativity meets style!</p>
+    <nav>
+      <ul>
+        <li><a href="Homes.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="About.Us.html">About Us</a></li>
+        <li><a href="Designers.html">Designers</a></li>
+        <li><a href="AI.html">AI Experience</a></li>
+        <li><a href="Account.html">My Account</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <div class="category">
+      <h2>Women</h2>
+      <img src="photos/womens.jpg" alt="Women's Fashion">
+    </div>
+    <div class="category">
+      <h2>Children</h2>
+      <img src="photos/children.jpg" alt="Children's Fashion">
+    </div>
+    <div class="category">
+      <h2>Men</h2>
+      <img src="photos/pixabay.jpg" alt="Men's Fashion">
+    </div>
+  </div>
+
+  <div class="discount-box">
+    <h2>Special Discount</h2>
+    <p>Use the code "FASHION20" to get 20% off on your next purchase!</p>
+  </div>
+
+  <footer>
+    <p>Contact: <span class="contact-info">Phone: <a href="tel:+1234567890">+1234567890</a> | Email: <a href="mailto:fashion.design@gmail.com">fashion.desgin@gmail.com</a> | Instagram: <a href="https://www.instagram.com/example/">@fashion.design</a></span></p>
+  </footer>
+</body>
+</html>

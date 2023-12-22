@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <title>AI Experience</title>
+  <style>
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+    } 
+ 
+    body { 
+      font-family: Arial, sans-serif; 
+      background: url('photos/backround.jpg') no-repeat center center fixed; 
+      background-size: cover; 
+    } 
+    a:hover {
+      color: #ff4e50; /* Bright red */
+    }
+
+    .header {
+      background: linear-gradient(to right, #ff4e50, #f9d423); /* Gradient header background */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #ff4e50; /* Bright red */
+    }
+
+    .try-now {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .try-now a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: linear-gradient(to right, #ff4e50, #f9d423); /* Gradient button background */
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .table-container {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .table-container table {
+      width: 40%;
+      margin-right: 20px;
+    }
+
+    .table-container th,
+    .table-container td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .photos-container {
+      display: flex;
+      justify-content: space-between;
+	  
+    }
+
+    .photo {
+      width: 30%;
+	  margin-left: 35%;
+	  margin-bottom:5%
+    }
+
+    .iframe-container {
+      text-align: center;
+      margin-top: 20px;
+
+    }
+
+    img {
+      max-width: 300px;
+      height: auto;
+	  }
+
+    .iframe-container iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+
+    .footer {
+      background: linear-gradient(to right, #ff4e50, #f9d423); /* Gradient footer background */
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+	
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>AI Experience</h1>
+  <header>
+<nav>
+           <ul>
+                <li><a href="Homes.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="About.Us.html">About Us</a></li>
+                <li><a href="Designers.html">Designers</a></li>
+                <li><a href="AI.html">AI Experience</a></li>
+				<li><a href="Account.html">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+<div class="container">
+  <h2>Try it Now!</h2>
+  <div class="try-now">
+    <a href="https://storage.googleapis.com/tfjs-models/demos/posenet/camera.html">Try it now</a>
+  </div>
+
+<!-- the table code -->
+<figure>
+  <table cellpadding="10" cellspacing="2" border="1">
+    <caption><h3>Size guide</h3></caption>
+    <tr>
+<th>weight </th>
+<th>height </th>
+<th colspan="2">The right size</th>
+</tr>
+<tr>
+<td>40-50</td>
+<td>150-160</td>
+<td>S</td>
+</tr>
+<tr>
+<td>55-65</td>
+<td>165-170</td>
+<td>M</td>
+</tr>
+<tr>
+<td>70-85</td>
+<td>170-180</td>
+<td>XL</td</tr>
+<tfoot><tr><td colspan="4">More than these = XXL</tr></td></tfoot>
+   
+  </table>
+</figure>
+ 
+
+   <div class="photos-container">
+      <div class="photo">
+        <img src="photos\AI2.jpg" alt="Photo 1">
+      </div>
+    </div>
+  </div>
+
+  <div class="iframe-container">
+    <iframe src="https://storage.googleapis.com/tfjs-models/demos/posenet/camera.html"></iframe>
+  </div>
+</div>
+
+<div class="footer">
+<footer>
+        <p>Contact: <span class="contact-info">Phone: <a href="tel:+1234567890">+1234567890</a> | Email: <a href="mailto:fashion.design@gmail.com">fashion.desgin@gmail.com</a> | Instagram: <a href="https://www.instagram.
+com/example/">@fashion.design</a></span></p>
+    </footer>
+  <p>&copy; 2023 AI Experience. All rights reserved.</p>
+</div>
+
+</body>
+</html>
+
